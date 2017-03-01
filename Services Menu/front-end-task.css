@@ -1,0 +1,87 @@
+/*IMAGES */
+
+.calender-img {
+    background-image: url(img/calender.jpg);
+}
+
+.lists-img {
+    background-image: url(img/lists.jpg);
+}
+
+.recipie-box-img {
+    background-image: url(img/recipe.jpg);
+}
+
+.meal-planner-img {
+    background-image: url(img/meal_planner.jpg);
+}
+
+
+/*General CSS*/
+
+.container-width {
+    width: 75%;
+}
+
+.tile-img {
+    min-height: 330px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tile-text-area {
+    padding: 40px 35px;
+}
+
+.tile-text-title {
+    font-size: 2.5em;
+}
+
+.tile-text-para {
+    line-height: 1.8;
+    font-size: 1.2em;
+    color: #666;
+    padding-top: 4%;
+}
+
+.tile-anchor {
+    text-transform: uppercase;
+    padding-right: 35px;
+    position: relative;
+    font-size: 1.4em;
+    color: #0086cd;
+}
+
+.tile-anchor::after {
+    content: '';
+    background: url(img/arrow-blue-right.svg) no-repeat center;
+    border-radius: 50%;
+    border: 1px solid #0086cd;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    background-size: 25px 25px;
+}
+
+.tile-anchor:hover {
+    text-decoration: none;
+    color: #0086cd;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/*RESPONSIvE DESIGN*/
+
+@media (max-width: 768px) {
+    .container-width {
+        width: 90%;
+    }
+}
+
+
